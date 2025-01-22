@@ -1,4 +1,4 @@
-# Gradient Able React Free Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20Gradient%20Able%20-%20The%20Professional%20Bootstrap%20Designed%20React%20Admin%20Dashboard%20Template%20&url=https://codedthemes.com/demos/admin-templates/gradient-able/react/default&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
+<!-- # Gradient Able React Free Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Download%20Gradient%20Able%20-%20The%20Professional%20Bootstrap%20Designed%20React%20Admin%20Dashboard%20Template%20&url=https://codedthemes.com/demos/admin-templates/gradient-able/react/default&via=codedthemes&hashtags=reactjs,webdev,developers,javascript)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/gradient-able-free-admin-template/blob/main/react/LICENSE)
@@ -138,4 +138,4 @@ Please generate a [GitHub issue](https://github.com/codedthemes/gradient-able-fr
 - Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
 - Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
 - Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
-# dashboard
+# dashboard -->
