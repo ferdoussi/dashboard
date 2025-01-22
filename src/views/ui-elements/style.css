@@ -1,0 +1,221 @@
+/* Variables principales */
+:root {
+  --primary-color: #203165;
+  --secondary-color: orange;
+  --text-color: #333;
+  --background-color: #f9f9f9;
+  --border-color: #ddd;
+  --modal-overlay-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+/* Modals */
+.modalColor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--modal-overlay-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalColor2 {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 0.3s ease-out;
+  position: relative;
+  top: 20px;
+}
+
+/* Animation pour la modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px; /* Ajout de padding pour espacer */
+
+  position: relative; /* Utile si d'autres éléments sont positionnés */
+  top: 0; /* Garde l'alignement même si placé fixe */
+  z-index: 100; /* Priorité d'affichage si chevauchement */
+  
+}
+
+.header h1 {
+  font-size: 18px;
+  color: #203165;
+  
+}
+.header img{
+  width: 100px;
+  height: 100px;
+  
+}
+
+/* Informations */
+.info {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
+
+/* Total */
+.total {
+  text-align: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+
+.prix {
+  color: var(--secondary-color);
+}
+
+/* Description */
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+.description-container {
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--background-color);
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+/* Boutons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button,
+.buttons a {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+button:hover,
+.buttons a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Bouton de fermeture */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  color: var(--text-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.close:hover {
+  color: red;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .modalColor2 {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .table th,
+  .table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .header h1 {
+    font-size: 16px;
+  }
+}
+
+.status {
+  display: flex;
+  margin: 10px;
+}
+.status span {
+  margin-left: 10px;
+  color: #203165;
+}
+.show {
+  cursor: pointer;
+  font-size: 24px;
+  width: 30px;
+  user-select: none;
+  display: inline-block;
+  transition: transform 0.3s;
+  background-color: #203165;
+  border-radius: 20px;
+  text-align: center;
+}
