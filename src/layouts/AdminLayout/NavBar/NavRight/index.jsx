@@ -13,7 +13,7 @@ const NavRight = () => {
   // جلب بيانات المستخدم
   const fetchUserData = async () => {
     try {
-      const response = await axios.get('http://192.168.100.150:8000/api/user', {
+      const response = await axios.get('http://localhost:8000/api/user', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('authToken')}`
         }

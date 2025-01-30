@@ -5,7 +5,7 @@ import * as Yup from 'yup';
 import { Formik } from 'formik';
 import axios from 'axios';
 
-const API_LOGIN_ENDPOINT = 'http://192.168.100.150:8000/api/login';
+const API_LOGIN_ENDPOINT = 'http://localhost:8000/api/login';
 
 const JWTLogin = () => {
   const [apiError, setApiError] = useState('');
